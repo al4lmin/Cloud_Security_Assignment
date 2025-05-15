@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Management Page</title>
+    <title>FCI FYP Login Page</title>
     <link rel="stylesheet" href="static/login.css">
 </head>
 
@@ -13,7 +13,7 @@
         <img src="images/mmu_logo2.png" alt="logo" id="logo2">
         <br>
         <br>
-        <h1>Student Management Page</h1>
+        <h1>FCI FYP Login</h1>
         <form action="function/login_function.php" method="POST">
             <div class="form-group">
                 <label for="user_ID">User ID</label> 
