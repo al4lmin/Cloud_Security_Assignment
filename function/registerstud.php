@@ -8,12 +8,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name = $_POST['name'];
     $password = $_POST['password'];
+    $hashpwd = password_hash($password, PASSWORD_DEFAULT);
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $specialization = $_POST['specialization'];
 
     $userSql = "INSERT INTO user (`user_name`, `user_password`, `user_email`, `user_phone`, `user_role`)
-                VALUES ('$name', '$password', '$email', '$phone', 'student')";
+                VALUES ('$name', '$hashpwd', '$email', '$phone', 'student')";
     $userInsert = $conn->query($userSql);
 
     if($userInsert){
