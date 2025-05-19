@@ -36,6 +36,11 @@
                 <option name="Information System">Information System</option>
             </select>
 
+            <label style="display: flex; align-items: center;">
+                <input type="checkbox" name="consent" required style="margin: 0;"> 
+                    I agree to the collection and use of my data under PDPA 2010.
+            </label>
+
             <div class="button-container">
                 <button type="submit" class="modern-button">Register</button>
                 <button type="reset" class="modern-button">Reset</button>

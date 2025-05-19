@@ -17,6 +17,7 @@
 
     <main>
         <div id="contributors-container">
+            <!--
             <section class="contributors">
                 <img src="images/members/Jhon.jpeg">
                 <p class="detail-label">Name</p>
@@ -61,6 +62,7 @@
                 <p class="detail-label">Contact</p>
                 <p class="detail-desc"><a href="mailto:">1211103201@student.mmu.edu.my</a></p>
             </section>
+-->
         </div>
     </main>
 
