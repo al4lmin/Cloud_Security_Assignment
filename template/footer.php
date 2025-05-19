@@ -1,13 +1,17 @@
 <footer>
     <div id="info-container">
         <div class="footer-content">
-            <h3>Contributors</h3>
+            
+        <!--
+        <h3>Contributors</h3>
             <ul>
                 <li><a href="#">Chin Sheng Jun</a></li>
                 <li><a href="#">Ku Ming Hin</a></li>
                 <li><a href="#">MOHAMED ARIQUE BIN MOHAMED AZIYEN</a></li>
                 <li><a href="#">MUHAMMAD AL-AMIN BIN MOHD NORMARZUKI</a></li>
             </ul>
+        -->
+            
         </div>
 
         <div class="footer-content">
